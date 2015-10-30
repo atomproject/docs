@@ -19,5 +19,5 @@ Documentation for the atom project is present in this repo.
 * [How property panel works](how-property-panel-works.md)
 
 ## Builders
-* How builders work with each other
+* [How builders work with each other](how-builders-work-with-each-other.md)
 * Tryout
