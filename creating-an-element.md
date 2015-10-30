@@ -1,0 +1,3 @@
+# Creating an element
+
+To create an atom element, you first need to create a valid polymer element. Then depending on what properties you want to expose on the form/ page builder interface you need to mark those properties appropriately. Currently this is done using an external JSON file which is then included in the element definition. For the properties to be exposed, the JSON file contains details like display name, default value, data type etc. An example can be found [here](https://github.com/atomelements/t-checkbox-group/blob/master/property.json) . By reading this JSON file the builders automatically generate the property panel which appears on the right side of the builders.
