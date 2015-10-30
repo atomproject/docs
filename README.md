@@ -2,7 +2,7 @@
 Documentation for the atom project is present in this repo.
 
 ## Project
-* About
+* [About](About.md)
 * Updates & version management
 * How to contribute
 * Samples
