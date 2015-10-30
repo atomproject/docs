@@ -2,21 +2,21 @@
 Documentation for the atom project is present in this repo.
 
 ## Project
-* [About](About.md)
+* [About](about.md)
 * Updates & version management
 * How to contribute
 * Samples
 * Setting it up
 
 ## Elements
-* Creating an element
+* [Creating an element](creating-an-element.md)
 * Best practices
 
 ## Framework
 * What should be a component
 * Property naming convention
-* How styling works
-* How property panel works
+* [How theming works](how-theming-works.md)
+* [How property panel works](how-property-panel-works.md)
 
 ## Builders
 * How builders work
