@@ -7,6 +7,7 @@ Documentation for the atom project is present in this repo.
 * How to contribute
 * Samples
 * Setting it up
+* [Openness considerations](openness-considerations.md)
 
 ## Elements
 * [Creating an element](creating-an-element.md)
