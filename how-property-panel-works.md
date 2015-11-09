@@ -1,8 +1,8 @@
-# What is the property panel?
+## What is the property panel?
 
 The property panel is basically a form, which generally uses items like checkboxes, input fields, dropdowns, pill buttons and sliders. It is used while previewing elements, and allows the user to manipulate an elements public API via a user interface.
 
-# How does the property panel work? 
+## How does the property panel work? 
 
 The property panel for each element gets auto generated from a part of the element definition. Based on the data type of the  property to be exposed, a relevant UI control is chosen to display it.
 
@@ -113,3 +113,7 @@ As mentioned above, the property panel is a form made up of certain types of con
                 "value":"left"
             }
 ```
+
+## Known Limitations
+* All properties are assumed to be independent of each other.
+* There is no way of specifying mandatory properties.
