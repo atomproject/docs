@@ -117,3 +117,10 @@ As mentioned above, the property panel is a form made up of certain types of con
 ## Known Limitations
 * All properties are assumed to be independent of each other.
 * There is no way of specifying mandatory properties.
+
+<!--
+Possible Additions Required
+* Text String (to show value captured by an autosuggest or dropdown, etc.)
+* Calendar?? (to capture excluded dates in the calendar)
+* List? (to show value captured by a checkbox list. Basically any component which returns an array will need something like this)
+-->
