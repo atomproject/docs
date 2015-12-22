@@ -72,3 +72,6 @@ Following rules should be applied while specifying the dependencies in either an
 1. By default only mention [tilde][2] or [caret][1] ranges.
 2. If a non-stable component needs to be tested or consumed while development specify branches instead of ranges.
 3. Once testing is complete update the versions of consumed components and revert back to using [tilde][2] or [caret][1] ranges.
+
+[1]: https://docs.npmjs.com/misc/semver#caret-ranges-1-2-3-0-2-5-0-0-4
+[2]: https://docs.npmjs.com/misc/semver#tilde-ranges-1-2-3-1-2-1
