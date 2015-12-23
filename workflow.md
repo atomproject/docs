@@ -75,3 +75,10 @@ Following rules should be applied while specifying the dependencies in either an
 
 [1]: https://docs.npmjs.com/misc/semver#caret-ranges-1-2-3-0-2-5-0-0-4
 [2]: https://docs.npmjs.com/misc/semver#tilde-ranges-1-2-3-1-2-1
+
+
+## Miscellaneous Tools and Links
+
+1. Enforce the gitflow workflow with a [tool](https://github.com/nvie/gitflow)
+2. A [tool](https://www.npmjs.com/package/gitwalk) for managing multiple git repositories
+3. A [video](https://docs.npmjs.com/getting-started/semantic-versioning) explaining semver.
