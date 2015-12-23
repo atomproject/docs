@@ -82,3 +82,4 @@ Following rules should be applied while specifying the dependencies in either an
 1. Enforce the gitflow workflow with a [tool](https://github.com/nvie/gitflow)
 2. A [tool](https://www.npmjs.com/package/gitwalk) for managing multiple git repositories
 3. A [video](https://docs.npmjs.com/getting-started/semantic-versioning) explaining semver.
+4. A handy [command](http://bower.io/docs/api/#link) in bower for testing components
