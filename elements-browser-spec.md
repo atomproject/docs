@@ -1,17 +1,21 @@
 ## Atom Elements Browser
-The atom elements browser is an interactive documentation system for web components. For any web component, it automaticaly generates a panel using which the user can interact with the public API of the element, including its properties, methods and events.
+The atom elements browser is an interactive documentation system for web components. For any web component, it automaticaly generates a panel using which the user can interact with the public properties of the elements. Support for interacting with methods and events will be added later.
 
 **Prerequisites**
-The elements should be  
+
+For the bower install instructions to be shown
+- The elements must be [bower installable](http://bower.io/docs/api/#install)
+
+To be able to use status indicator feature
 - Hosted on github (or a git based version control system)
-- Have Travis CI as the build system (Optional. Needed for certain features to work.)
+- Have Travis CI as the build system 
 
 ## Features
 The elements browser has the following aspects
 - **Easy Setup & Updates** 
-   - To setup the browser for your elements, simply fork a repo and modify a config file in it to add urls of your elements there. Replace the atom logo with your own to brand it for your project. ![](https://github.com/atomproject/docs/blob/master/images/Screen%20Shot%202016-03-15%20at%202.16.52%20pm.png) *Figure: An example of the config file*
+   - To setup the browser for your elements, use the [ap-io command line interface](https://github.com/atomproject/ap-io) and modify a config file in the site generated to add urls of your elements there. Replace the atom logo with your own to brand it for your project. ![](https://github.com/atomproject/docs/blob/master/images/Screen%20Shot%202016-03-15%20at%202.16.52%20pm.png) *Figure: An example of the config file*
    - The elements browser for your elements can be hosted publicly on github or locally.
-   - To update the elements browser for feature upgrades, [do this]
+   - To update the elements browser for feature upgrades, update the package and run the site generation command again. 
 - **Build Status & Element Count Indicators** 
    - The build status for every element is represented next to its name. This is available only if builds using travis CI are setup.
    - Status for all the elements is represented in the footer of the navigation. Green indicates that all elements are passing. Red indicates one or more elements are failing. Grey indicates that status is loading. ![](https://github.com/atomproject/docs/blob/master/images/Screen%20Shot%202016-03-16%20at%209.23.08%20am.png) *Figure: Build Status & Element Count Indicators* 
