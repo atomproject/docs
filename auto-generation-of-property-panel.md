@@ -13,7 +13,8 @@ As discussed [here](how-property-panel-works.md), the property panel is generate
   * `String`, it is represented by an input field
   * `Object`, it is represented by a JSON editor
   * `Array`, it is represented by a compound control that can be a 
-    * list of strings (if it is an array of strings or numbers)
+    * list of strings (if it is an array of strings)
+    * list of numbers (if it is an array of numbers)
     * list of checkboxes (if it is an array of boolean values)
     * JSON editor (if it is an array of dates, objects, arrays or anything else)
 4. The order of these UI controls in the property panel is the same as the order of the properties in the element's definition. They are not sorted alphabetically or based on any other organizing criterion as of now.
